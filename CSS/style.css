@@ -94,6 +94,7 @@ html {
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
+    user-select: none;
 }
 
 .home-content h1 {
@@ -331,10 +332,15 @@ html {
     text-align: center;
     color: #131313;
     transition: .5s;
+    text-shadow: 0 0 0 0 #131313;
+    -webkit-text-stroke-width: transparent;
+    transition: 0.5s;
 }
 
 .footer a:hover {
-    color: #434343;
+    color: #131313;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: none;
 }
 
 
