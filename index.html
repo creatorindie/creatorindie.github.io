@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/icons/css/all.min.css">
     <meta name=”theme-color” content=”#FEM062>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Indie</title>
 </head>
 
@@ -19,6 +21,7 @@
     <!--! Home -->
 
     <section class="header" id="home">
+        <h1 class="outline-header">CREATORINDIE</h1>
         <nav>
             <div class="flex-container">
                 <ul>
@@ -62,6 +65,7 @@
                 </div>
             </div>
         </div>
+        <h1 class="outline-h2">CREATOR</h1>
     </section>
 
     <!--! Contact -->
@@ -69,11 +73,14 @@
     <section class="contact" id="contact">
         <div class="contact-links">
             <ul>
-                <li><a href="https://github.com/creatorindie">Github</a></li>
-                <li><a href="https://www.instagram.com/creatorindie/">Instagram</a></li>
-                <li><a href="#">Behance</a></li>
+                <div data-aos="fade-up">
+                    <li><a href="https://github.com/creatorindie">Github</a></li>
+                    <li><a href="https://www.instagram.com/creatorindie/">Instagram</a></li>
+                    <li><a href="#">Behance</a></li>
+                </div>
             </ul>
         </div>
+        <h1 class="outline-h3">INDIE</h1>
     </section>
 
     <!--! Footer -->
@@ -81,15 +88,21 @@
     <section class="footer" id="links">
         <footer>
             <h3>Made by <a href="https://www.instagram.com/creatorindie/" target="_blank">@Creatorindie</a></h3>
+            <h1 class="outline-h-footer">HAN</h1>
         </footer>
     </section>
-
-    <div class="btn-top">
+    <div class="fixed-btn">
         <a href="#home">
-            <i class="fas fa-caret-up"></i>
+            <div class="btn-top">
+                <i class="fas fa-caret-up"></i>
+            </div>
         </a>
     </div>
-
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
