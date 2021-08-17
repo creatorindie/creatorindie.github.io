@@ -406,8 +406,8 @@ html {
 .outline-h-footer {
     position: absolute;
     margin: auto;
-    right: 400px;
     font-size: 400px;
+    left: 10px;
     top: -70%;
     color: #0b0b0b;
     -webkit-text-stroke-width: 1px;
@@ -417,6 +417,8 @@ html {
     user-select: none;
     display: block;
     z-index: 1;
+    text-align: center;
+    letter-spacing: 200px;
     transition: .8s;
 }
 
@@ -491,7 +493,7 @@ html {
         padding: 20px 25px;
     }
     .flex-container li {
-        margin: 0px 25px 0 30px;
+        margin: 0px 40px 0 25px;
         justify-content: center;
     }
     .flex-container li a {
@@ -648,7 +650,7 @@ html {
     .outline-h-footer {
         position: absolute;
         margin: auto;
-        right: -51%;
+        left: -45%;
         font-size: 300px;
         top: -40%;
         color: #0b0b0b;
