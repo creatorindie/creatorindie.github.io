@@ -23,7 +23,7 @@
     <section class="header" id="home">
         <h1 class="outline-header">CREATORINDIE</h1>
         <nav>
-            <div class="flex-container">
+            <div class=" flex-container">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -32,8 +32,8 @@
             </div>
         </nav>
         <div class="home-content">
-            <h1 class="outlined-indie">Welcome to <br> <span>Indie</span>'s Portfolio.</h1>
-            <p>This page will describe my journey & projects.</p>
+            <h1 data-rellax-speed="3" class="rellax  outlined-indie">Welcome to <br> <span>Indie</span>'s Portfolio.</h1>
+            <p data-rellax-speed="2" class="rellax">This page will describe my journey & projects.</p>
         </div>
         <div class="scroll-down">
             <a href="#projects">
@@ -80,14 +80,14 @@
                 </div>
             </ul>
         </div>
-        <h1 class="outline-h3">INDIE</h1>
+        <h1 class="outline-h3 rellax" data-rellax-speed="-2">INDIE</h1>
     </section>
 
     <!--! Footer -->
 
     <section class="footer" id="links">
         <footer>
-            <h3>Made by <a href="https://www.instagram.com/creatorindie/" target="_blank">@Creatorindie</a></h3>
+            <h3 class="rellax" data-rellax-speed="0">Made by <a href="https://www.instagram.com/creatorindie/" target="_blank">@Creatorindie</a></h3>
             <h1 class="outline-h-footer">HAN</h1>
         </footer>
     </section>
@@ -102,6 +102,11 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js">
+    </script>
+    <script>
+        var rellax = new Rellax('.rellax');
     </script>
 </body>
 
